@@ -15,6 +15,14 @@ p {
 }
 p {
   color: pink;
+  text-decoration: underline;
+  text-decoration: line-through !important;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 /* h2,
 p {
