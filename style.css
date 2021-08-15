@@ -1,18 +1,65 @@
 /* selector {
     property: value;
 } */
+
+* {
+  text-align: right;
+}
+
 body {
   background-image: url(background.jpg);
   background-size: cover;
 }
-h2 {
+p {
+  color: black !important;
+}
+p {
+  color: pink;
+}
+/* h2,
+p {
+  color: #aa4139;
+  text-align: center;
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  cursor: pointer;
+} */
+/* h2 + p {
+  color: #aa4139;
+  text-align: center;
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  cursor: pointer;
+} */
+h2 + p:hover {
   color: #aa4139;
   text-align: center;
   border: 5px solid rgba(255, 176, 170, 0.5);
   cursor: pointer;
 }
+/* h2 p {
+  text-align: right;
+} */
+/* h2 > p {
+  text-align: right;
+} */
 
 li {
   list-style: none;
   display: inline-block;
+}
+
+.webtext:last-child {
+  border: 5px dashed green;
+}
+
+/* .webtext:first-child {
+  border: 5px dashed green;
+} */
+.active {
+  color: black;
+}
+#div1 {
+  background: rgba(0, 0, 255, 0.4);
+}
+#div2 {
+  background: rgba(0, 255, 55, 0.5);
 }
