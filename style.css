@@ -1,0 +1,18 @@
+/* selector {
+    property: value;
+} */
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+h2 {
+  color: #aa4139;
+  text-align: center;
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
