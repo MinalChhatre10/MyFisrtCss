@@ -76,7 +76,14 @@ li {
 img {
   float: left;
 }
-
+.boxmodel {
+  border: 5px solid red;
+  display: inline-block;
+  padding: 30px;
+  margin: 10px;
+  width: 33px;
+  height: 44px;
+}
 footer {
   clear: both;
 }
